@@ -1,0 +1,79 @@
+.modal__box {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal--visible {
+    display: flex;
+}
+
+.modal__container {
+    background-color: #233540;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 18px;
+}
+
+.modal__title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 8px;
+}
+
+.modal__round-info {
+    color: #5BC2B9;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.winner__image {
+    margin: 16px;
+    width: 60px;
+    height: 60px;
+}
+
+.modal__buttons {
+    display: flex;
+}
+
+.modal__restart, .modal__next-round {
+    margin: 16px;
+    background-color: #ABBECA;
+    color: #14202B;
+    font-weight: 800;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    border-bottom: solid 3px #768993;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 100ms ease-in-out;
+}
+
+.modal__next-round {
+    background-color: #EAB326;
+    border-bottom: solid 3px #b4891d;
+}
+
+.modal__restart:hover ,.modal__next-round:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.modal__restart:active, .modal__next-round:active {
+    transform: scale(0.95);
+    cursor: pointer;
+}

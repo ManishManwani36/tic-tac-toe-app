@@ -1,0 +1,48 @@
+.restart-icon__box {
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.restart-icon__container {
+    width: 40px;
+    height: 40px;
+    background-color: #ABBECA;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    border-bottom: solid 3px #768993;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 100ms ease-in-out;
+}
+
+.restart-icon__container:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.restart-icon__container:active {
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.restart-icon {
+    width: 100%;
+    transition: all ease-in;
+}
+
+.restart-icon--animate {
+    animation: rotate 400ms;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }   
+
+    to {
+        transform: rotate(360deg);
+    }
+}

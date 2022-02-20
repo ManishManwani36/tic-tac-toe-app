@@ -1,0 +1,19 @@
+.score-crad__container {
+    width: calc(100% /3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #233643;
+    background-color: #ABBECA;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.score-card__number {
+    font-size: 20px;
+    font-weight: 900;
+}

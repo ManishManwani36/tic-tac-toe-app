@@ -1,0 +1,25 @@
+.game-area__cell {
+    flex: 1 1 calc((100% / 3) - 16px);
+    background-color: #233540;
+    aspect-ratio: 1 / 1;
+    margin: 8px;
+    border-radius: 16px;
+    border: none;
+    border-bottom: solid 7px #132129;
+    transition: all 100ms ease-in-out;
+}
+
+.cell__icon {
+    width: 50%;
+    height: 50%;
+}
+
+.game-area__cell:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.game-area__cell:active {
+    transform: scale(0.95);
+    cursor: pointer;
+}

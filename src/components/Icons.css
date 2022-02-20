@@ -1,0 +1,16 @@
+.icons__conatiner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: calc(100% / 3);
+}
+.cross__container, .knots__container {
+    width: 30px;
+    height: 30px;
+    margin: 0 4px;
+}
+
+.cross__svg, .knots__svg {
+    width: 100%;
+    height: 100%;
+}
