@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/tic-tac-toe-app/static/css/main.8fd04481.css",
+    "main.js": "/tic-tac-toe-app/static/js/main.7e8987e2.js",
+    "static/media/redo.svg": "/tic-tac-toe-app/static/media/redo.a979b1da30fe6f8c20e288b302bf7588.svg",
+    "static/media/cross.svg": "/tic-tac-toe-app/static/media/cross.8fed69f65fe806b4ed1e61d429d7284d.svg",
+    "static/media/crossGrey.svg": "/tic-tac-toe-app/static/media/crossGrey.d69398b301739e5e2091dcb67b48a5f5.svg",
+    "index.html": "/tic-tac-toe-app/index.html",
+    "static/media/tie.svg": "/tic-tac-toe-app/static/media/tie.422554ce00df12336cc07a15c596aa4b.svg",
+    "static/media/knots.svg": "/tic-tac-toe-app/static/media/knots.a6c4610258f426cdb0e682289e071090.svg",
+    "static/media/knotsGrey.svg": "/tic-tac-toe-app/static/media/knotsGrey.5e49de381c884b5d25ffadc05932f539.svg",
+    "main.8fd04481.css.map": "/tic-tac-toe-app/static/css/main.8fd04481.css.map",
+    "main.7e8987e2.js.map": "/tic-tac-toe-app/static/js/main.7e8987e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fd04481.css",
+    "static/js/main.7e8987e2.js"
+  ]
+}
